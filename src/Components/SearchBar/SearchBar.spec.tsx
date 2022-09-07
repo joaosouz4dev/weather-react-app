@@ -1,9 +1,10 @@
 import { render, screen } from '@testing-library/react'
+import { expect, it } from 'vitest'
 
 // import userEvent from '@testing-library/user-event'
 import { SearchBar } from './'
 
-describe('<SearchBar />', () => {
+it('<SearchBar />', () => {
   test('should return the correct text', async () => {
     render(
       <SearchBar

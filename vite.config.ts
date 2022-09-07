@@ -10,7 +10,7 @@ export default defineConfig({
   test: {
     globals: true,
     watch: false,
-    environment: 'happy-dom',
+    environment: 'jsdom',
     setupFiles: './src/setup-test.ts',
   },
   build: {
