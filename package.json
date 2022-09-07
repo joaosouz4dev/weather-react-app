@@ -1,0 +1,99 @@
+{
+  "name": "weather-react-app",
+  "description": "Um aplicativo meteorológico que capta a localização atual",
+  "private": false,
+  "version": "1.1.0",
+  "license": "MIT",
+  "main": "src/main.tsx",
+  "author": "João Victor Souza <web@joaovictorsouza.dev>",
+  "homepage": "https://https://github.com/joaosouz4dev/weather-react-app#readme",
+  "repository": "github:joaosouz4dev/weather-react-app.git",
+  "bugs": "https://github.com/joaosouz4dev/weather-react-app/issues",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --watch --coverage",
+    "test:ui": "vitest --watch --coverage --ui",
+    "lint": "npx eslint src",
+    "lint:fix": "npm run lint -- --fix",
+    "lint:css": "npx stylelint **/*.css --aei --color",
+    "prettier": "npx prettier src --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "format": "npm run prettier:fix && npm run lint:fix",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install",
+    "commit": "commit"
+  },
+  "engines": {
+    "node": "^16.17.x",
+    "npm": "^8.15.x"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "react": "^18.x",
+    "react-dom": "^18.x",
+    "sass": "^1.54.8"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.x",
+    "@commitlint/config-conventional": "^17.x",
+    "@commitlint/prompt-cli": "^17.x",
+    "@fvilers/disable-react-devtools": "^1.x",
+    "@testing-library/jest-dom": "^5.x",
+    "@testing-library/react": "^13.x",
+    "@testing-library/user-event": "^14.x",
+    "@trivago/prettier-plugin-sort-imports": "^3.x",
+    "@types/react": "^18.x",
+    "@types/react-dom": "^18.x",
+    "@typescript-eslint/eslint-plugin": "^5.x",
+    "@typescript-eslint/parser": "^5.x",
+    "@vitejs/plugin-react": "^2.x",
+    "@vitest/coverage-c8": "^0.x",
+    "@vitest/ui": "^0.x",
+    "c8": "^7.x",
+    "eslint": "^8.x",
+    "eslint-config-prettier": "^8.x",
+    "eslint-plugin-import": "^2.x",
+    "eslint-plugin-jsx-a11y": "^6.x",
+    "eslint-plugin-prettier": "^4.x",
+    "eslint-plugin-react": "^7.x",
+    "eslint-plugin-react-hooks": "^4.x",
+    "happy-dom": "^5.x",
+    "husky": "^8.x",
+    "lint-staged": "^13.x",
+    "msw": "^0.x",
+    "prettier": "^2.x",
+    "stylelint": "^14.x",
+    "stylelint-config-prettier": "^9.x",
+    "stylelint-config-standard": "^26.x",
+    "typescript": "^4.x",
+    "vite": "^3.x",
+    "vite-tsconfig-paths": "^3.x",
+    "vitest": "^0.x",
+    "web-vitals": "^2.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "vite",
+    "bundle",
+    "typescript",
+    "starter",
+    "template"
+  ]
+}
