@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;500;700');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700');
 
 * {
   outline: none;
@@ -10,11 +10,11 @@ body {
 
   background-color: #f1f1f1;
   color: #202124;
-  font-family: 'Roboto serif', sans-serif;
+  font-family: 'Google Sans',arial,sans-serif;
   &.dark {
     background-color: #202124;
     color: #fff;
-    font-family: 'Roboto serif', sans-serif;
+    font-family: 'Google Sans',arial,sans-serif;
   }
 }
 
@@ -49,71 +49,6 @@ body {
   }
 }
 
-.city {
-  &__country {
-    font-size: 25px;
-  }
-  &__name {
-    font-size: 42px;
-    font-weight: 400;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0;
-    @media (max-width: 576px) {
-      font-size: 32px;
-      flex-direction: column;
-      margin-top: 30px;
-    }
-  }
-  &__weather {
-    &--icon {
-      width: 100px;
-      @media (max-width: 576px) {
-        width: 80px;
-      }
-    }
-    &--desc {
-      font-size: 25px;
-      text-align: center;
-      margin-top: 0px;
-    }
-  }
-
-  &__temp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &--headline {
-      font-size: 62px;
-      margin: 0;
-      padding: 0px 30px;
-      @media (max-width: 576px) {
-        font-size: 45px;
-      }
-    }
-    &--overview {
-      padding: 0px 30px;
-      border-left: 1px dashed #fff;
-    }
-    &--detail {
-      font-size: 20px;
-      margin: 0;
-      &:first-child {
-        margin-bottom: 20px;
-      }
-      @media (max-width: 576px) {
-        font-size: 15px;
-      }
-    }
-    &--span {
-      text-align: center;
-      margin-top: 25px;
-    }
-  }
-}
-
 .search {
   text-align: center;
   margin-top: 40px;
@@ -132,35 +67,23 @@ body {
   }
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  -webkit-box-align: center;
-  align-items: center;
-  width: 50vw;
-  padding: 20px 10px;
-  margin: auto;
-  border-radius: 4px;
-  box-shadow: rgb(85 85 85) 0px 3px 6px 0px;
-  background: #ffffff;
-}
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   .card {
-    width: 80vw;
+    width: 80vw!important;
   }
   .search input {
-    width: 70vw;
+    width: 70vw!important;
   }
 }
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   .card {
-    width: 85vw;
+    width: 85vw!important;
   }
   .search input {
-    width: 70vw;
+    width: 70vw!important;
   }
 }
