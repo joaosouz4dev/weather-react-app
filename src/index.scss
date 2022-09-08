@@ -10,11 +10,11 @@ body {
 
   background-color: #f1f1f1;
   color: #202124;
-  font-family: 'Google Sans',arial,sans-serif;
+  font-family: 'Google Sans', arial, sans-serif;
   &.dark {
     background-color: #202124;
     color: #fff;
-    font-family: 'Google Sans',arial,sans-serif;
+    font-family: 'Google Sans', arial, sans-serif;
   }
 }
 
@@ -67,23 +67,22 @@ body {
   }
 }
 
-
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   .card {
-    width: 80vw!important;
+    width: 80vw !important;
   }
   .search input {
-    width: 70vw!important;
+    width: 70vw !important;
   }
 }
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   .card {
-    width: 85vw!important;
+    width: 85vw !important;
   }
   .search input {
-    width: 70vw!important;
+    width: 70vw !important;
   }
 }
